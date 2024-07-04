@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="person0"
+          class="ru.nurullin.spring.Person">
+        <constructor-arg value="Sponge Bob"/>
+        <constructor-arg value="14"/>
+    </bean>
+
+    <bean id="person1"
+          class="ru.nurullin.spring.Person">
+        <constructor-arg value="Patrick"/>
+        <constructor-arg value="15"/>
+    </bean>
+
+    <bean id="person2"
+          class="ru.nurullin.spring.Person">
+        <constructor-arg value="Squidward"/>
+        <constructor-arg value="17"/>
+    </bean>
+
+</beans>
