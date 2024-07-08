@@ -13,16 +13,4 @@
         <constructor-arg value="14"/>
     </bean>
 
-    <bean id="person1"
-          class="ru.nurullin.spring.Person">
-        <constructor-arg value="Patrick"/>
-        <constructor-arg value="15"/>
-    </bean>
-
-    <bean id="person2"
-          class="ru.nurullin.spring.Person">
-        <constructor-arg value="Squidward"/>
-        <constructor-arg value="17"/>
-    </bean>
-
 </beans>
