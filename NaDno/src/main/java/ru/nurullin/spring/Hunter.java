@@ -7,6 +7,12 @@ public class Hunter {
         this.currentAnimal = currentAnimal;
     }
 
+    public Hunter() {}
+
+    public void setCurrentAnimal(Animal currentAnimal) {
+        this.currentAnimal = currentAnimal;
+    }
+
     public void killAnimal() {
         System.out.println("Охотник стреляет в " + currentAnimal.sayBeforDeath());
     };

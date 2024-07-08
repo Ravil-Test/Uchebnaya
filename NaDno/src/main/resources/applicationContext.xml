@@ -11,17 +11,27 @@
           class="ru.nurullin.spring.Goat">
     </bean>
 
-    <bean id="hunter"
+    <bean id="hunter0"
           class="ru.nurullin.spring.Hunter">
-        <constructor-arg ref="goat"/>
+        <property name="currentAnimal" ref="goat"/>
     </bean>
 
     <bean id="goose"
           class="ru.nurullin.spring.Goose">
     </bean>
 
+    <bean id="hunter1"
+          class="ru.nurullin.spring.Hunter">
+        <property name="currentAnimal" ref="goose"/>
+    </bean>
+
     <bean id="frog"
           class="ru.nurullin.spring.Frog">
+    </bean>
+
+    <bean id="hunter2"
+          class="ru.nurullin.spring.Hunter">
+        <property name="currentAnimal" ref="frog"/>
     </bean>
 
 </beans>
