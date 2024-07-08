@@ -7,31 +7,46 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="goat"
-          class="ru.nurullin.spring.Goat">
+    <bean id="kefir"
+          class="ru.nurullin.spring.Kefir1">
     </bean>
 
-    <bean id="hunter0"
-          class="ru.nurullin.spring.Hunter">
-        <property name="currentAnimal" ref="goat"/>
+    <bean id="moloko"
+          class="ru.nurullin.spring.Moloko32">
     </bean>
 
-    <bean id="goose"
-          class="ru.nurullin.spring.Goose">
+    <bean id="tvorog"
+          class="ru.nurullin.spring.Tvorog5">
     </bean>
 
-    <bean id="hunter1"
-          class="ru.nurullin.spring.Hunter">
-        <property name="currentAnimal" ref="goose"/>
+    <bean id="podsolnuh"
+          class="ru.nurullin.spring.Podsolnuh">
     </bean>
 
-    <bean id="frog"
-          class="ru.nurullin.spring.Frog">
+    <bean id="kokos"
+          class="ru.nurullin.spring.Kokos">
     </bean>
 
-    <bean id="hunter2"
-          class="ru.nurullin.spring.Hunter">
-        <property name="currentAnimal" ref="frog"/>
+    <bean id="palmovoe"
+          class="ru.nurullin.spring.Palmovoe">
+    </bean>
+
+    <bean id="holodilnik"
+          class="ru.nurullin.spring.Holodilnik">
+        <property name="molochka">
+            <list>
+                <ref bean="kefir"/>
+                <ref bean="moloko"/>
+                <ref bean="tvorog"/>
+            </list>
+        </property>
+        <property name="rastitelnoe">
+            <list>
+                <ref bean="podsolnuh"/>
+                <ref bean="kokos"/>
+                <ref bean="palmovoe"/>
+            </list>
+        </property>
     </bean>
 
 </beans>
