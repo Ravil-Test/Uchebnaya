@@ -8,9 +8,9 @@ public class Probapera {
                 "applicationContext.xml"
         );
 
-        Holodilnik holodilnik = context.getBean("holodilnik", Holodilnik.class);
+        Hydra head0 = context.getBean("hydra", Hydra.class);
 
-        holodilnik.spisok();
+        head0.spisok();
 
         context.close();
     }

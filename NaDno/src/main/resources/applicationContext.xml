@@ -7,44 +7,18 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="kefir"
-          class="ru.nurullin.spring.Kefir1">
+    <bean id="heads"
+          class="ru.nurullin.spring.Heads"
+          scope="prototype">
     </bean>
 
-    <bean id="moloko"
-          class="ru.nurullin.spring.Moloko32">
-    </bean>
-
-    <bean id="tvorog"
-          class="ru.nurullin.spring.Tvorog5">
-    </bean>
-
-    <bean id="podsolnuh"
-          class="ru.nurullin.spring.Podsolnuh">
-    </bean>
-
-    <bean id="kokos"
-          class="ru.nurullin.spring.Kokos">
-    </bean>
-
-    <bean id="palmovoe"
-          class="ru.nurullin.spring.Palmovoe">
-    </bean>
-
-    <bean id="holodilnik"
-          class="ru.nurullin.spring.Holodilnik">
-        <property name="molochka">
+    <bean id="hydra"
+          class="ru.nurullin.spring.Hydra">
+        <property name="heads">
             <list>
-                <ref bean="kefir"/>
-                <ref bean="moloko"/>
-                <ref bean="tvorog"/>
-            </list>
-        </property>
-        <property name="rastitelnoe">
-            <list>
-                <ref bean="podsolnuh"/>
-                <ref bean="kokos"/>
-                <ref bean="palmovoe"/>
+                <ref bean="heads"/>
+                <ref bean="heads"/>
+                <ref bean="heads"/>
             </list>
         </property>
     </bean>
