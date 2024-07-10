@@ -8,13 +8,9 @@ public class Probapera {
                 "applicationContext.xml"
         );
 
-        Hunter hunter0 = context.getBean("hunter1", Hunter.class);
-        Hunter hunter1 = context.getBean("hunter0", Hunter.class);
-        Hunter hunter2 = context.getBean("hunter2", Hunter.class);
+        Hunter hunter0 = context.getBean("hunter", Hunter.class);
 
         hunter0.killAnimal();
-        hunter1.killAnimal();
-        hunter2.killAnimal();
 
         context.close();
     }
