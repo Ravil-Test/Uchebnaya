@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2da78c0-9d91-4cf0-9424-60d59b4535a5" name="Changes" comment="Задание &quot;На Дно!&quot;">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Probapera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/java/org/example/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/java/org/example/TestSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Patrik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Spisok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/SpongeBob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Squidward.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Probapera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Probapera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,10 +31,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2im9MqhhNJzF4UshBbrKST8fkXZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +48,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "NaDnoAnno",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
