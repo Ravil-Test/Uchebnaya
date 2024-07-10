@@ -19,4 +19,10 @@
           class="ru.nurullin.spring.Frog">
     </bean>
 
+    <bean id="hunter"
+          class="ru.nurullin.spring.Hunter"
+          factory-method="getHunter">
+        <property name="currentAnimal" ref="frog"/>
+    </bean>
+
 </beans>
