@@ -1,0 +1,27 @@
+Index: src/main/java/ru/nurullin/spring/Hunter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ru.nurullin.spring;\r\n\r\npublic class Hunter {\r\n    private Animal currentAnimal;\r\n\r\n    public Hunter(Animal currentAnimal) {\r\n        this.currentAnimal = currentAnimal;\r\n    }\r\n\r\n    public void killAnimal() {\r\n        System.out.println(\"Охотник стреляет в \" + currentAnimal.sayBeforDeath());\r\n    };\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/ru/nurullin/spring/Hunter.java b/src/main/java/ru/nurullin/spring/Hunter.java
+--- a/src/main/java/ru/nurullin/spring/Hunter.java	
++++ b/src/main/java/ru/nurullin/spring/Hunter.java	
+@@ -1,8 +1,18 @@
+ package ru.nurullin.spring;
+ 
+ public class Hunter {
++    private Hunter() {}
++
++    public static Hunter getHunter() {
++        return new Hunter();
++    }
++
+     private Animal currentAnimal;
+ 
++    public void setCurrentAnimal(Animal currentAnimal) {
++        this.currentAnimal = currentAnimal;
++    }
++
+     public Hunter(Animal currentAnimal) {
+         this.currentAnimal = currentAnimal;
+     }

@@ -1,0 +1,87 @@
+Index: src/main/resources/applicationContext.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<beans  xmlns=\"http://www.springframework.org/schema/beans\"\r\n        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n        xmlns:context=\"http://www.springframework.org/schema/context\"\r\n        xsi:schemaLocation=\"http://www.springframework.org/schema/beans\r\n        http://www.springframework.org/schema/beans/spring-beans.xsd\r\n        http://www.springframework.org/schema/context\r\n        http://www.springframework.org/schema/context/spring-context.xsd\">\r\n\r\n    <bean id=\"person0\"\r\n          class=\"ru.nurullin.spring.Person\">\r\n        <constructor-arg value=\"Sponge Bob\"/>\r\n        <constructor-arg value=\"14\"/>\r\n    </bean>\r\n\r\n    <bean id=\"person1\"\r\n          class=\"ru.nurullin.spring.Person\">\r\n        <constructor-arg value=\"Patrick\"/>\r\n        <constructor-arg value=\"15\"/>\r\n    </bean>\r\n\r\n    <bean id=\"person2\"\r\n          class=\"ru.nurullin.spring.Person\">\r\n        <constructor-arg value=\"Squidward\"/>\r\n        <constructor-arg value=\"17\"/>\r\n    </bean>\r\n\r\n</beans>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/applicationContext.xml b/src/main/resources/applicationContext.xml
+--- a/src/main/resources/applicationContext.xml	
++++ b/src/main/resources/applicationContext.xml	
+@@ -7,6 +7,8 @@
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd">
+ 
++    <context:component-scan base-package="ru.nurullin.spring"/>
++    
+     <bean id="person0"
+           class="ru.nurullin.spring.Person">
+         <constructor-arg value="Sponge Bob"/>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d2da78c0-9d91-4cf0-9424-60d59b4535a5\" name=\"Changes\" comment=\"Задание &quot;На Дно!&quot;\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Person.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Probapera.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/applicationContext.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/index.jsp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/.idea/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/src/main/java/org/example/TestBean.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/src/main/java/org/example/TestSpring.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/src/main/resources/applicationContext.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/src/main/webapp/WEB-INF/web.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../Springcourse/src/main/webapp/index.jsp\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 6\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2im9MqhhNJzF4UshBbrKST8fkXZ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Probapera.executor\": \"Run\",\r\n    \"Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Probapera\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.nurullin.spring.Probapera\" />\r\n      <module name=\"NaDno\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.nurullin.spring.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Probapera\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62\" />\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d2da78c0-9d91-4cf0-9424-60d59b4535a5\" name=\"Changes\" comment=\"\" />\r\n      <created>1720084845997</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1720084845997</updated>\r\n      <workItem from=\"1720084847028\" duration=\"4941000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Задание &quot;На Дно!&quot;\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Задание &quot;На Дно!&quot;\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,29 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="d2da78c0-9d91-4cf0-9424-60d59b4535a5" name="Changes" comment="Задание &quot;На Дно!&quot;">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Person.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Probapera.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/.idea/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/java/org/example/TestBean.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/java/org/example/TestSpring.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/resources/applicationContext.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Springcourse/src/main/webapp/index.jsp" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Person.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -44,10 +23,13 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 6
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 6
++}</component>
+   <component name="ProjectId" id="2im9MqhhNJzF4UshBbrKST8fkXZ" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -58,7 +40,7 @@
+     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "master",
++    "git-widget-placeholder": "NaDnoAnnotations",
+     "kotlin-language-version-configured": "true",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
