@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2da78c0-9d91-4cf0-9424-60d59b4535a5" name="Changes" comment="Задание &quot;Сезон охоты №2&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Kefir1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Kokos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Molochka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Moloko32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Palmovoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Podsolnuh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Rastitelnoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Tvorog5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Frog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Goat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Goose.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Holodilnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Holodilnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Holodilnik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Probapera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nurullin/spring/Probapera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +62,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Holodilnik",
+    "git-widget-placeholder": "HolodilnikAnno",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
